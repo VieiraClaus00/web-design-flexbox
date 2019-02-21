@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Mobile First/Css do Mobile*/
+body{
+    background-color: rgb(227, 231, 225);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 5px 0 5px;
+    background-color: black
+}
+header nav{
+    display: none;
+}
+#secao-principal figure img{
+    width: 80%; 
+}
+header i{
+   font-size: 2em; /*2.5rem = 32px*/
+   color: white;
+}
+header img{
+    height: 50px;
+    margin-right: calc(50% - 44.15px);
+}
+p {
+    color: #0c0b0b;
+ }
+   
